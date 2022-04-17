@@ -1,0 +1,16 @@
+.about-img{
+    border-radius: 10%;
+    border: 1px solid #ccc;
+    height:300px;
+    width: 250px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.goal{
+    width:500px;
+    height: 00px;
+    border: 1px solid gray;
+    border-radius: 10%;
+    padding: 25px;
+}
