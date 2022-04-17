@@ -20,8 +20,8 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h2>Kangaroo</h2>
-                        <h3>San Diego Island, Australia</h3>
+                        <h2 className='carousel-title'>Kangaroo</h2>
+                        <h3 className='carousel-title'>San Diego Island, Australia</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -31,8 +31,8 @@ const Banner = () => {
                         alt="Second slide"
                     />
                     <Carousel.Caption>
-                        <h2 className='banner-title'>Kingfisher</h2>
-                        <h3 className='banner-title'>
+                        <h2 className='banner-title carousel-title'>Kingfisher</h2>
+                        <h3 className='banner-title carousel-title'>
                             World's Largest Mangrove Forest, Sundarbans
                         </h3>
                     </Carousel.Caption>
@@ -45,8 +45,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h2 className='banner-title-le'>African Leopard</h2>
-                        <h3 className='banner-title-le'>Queen Elizabeth National Park,Uganda</h3>
+                        <h2 className='banner-title-le carousel-title'>African Leopard</h2>
+                        <h3 className='banner-title-le carousel-title'>Queen Elizabeth National Park,Uganda</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

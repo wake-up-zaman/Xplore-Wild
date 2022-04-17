@@ -5,3 +5,16 @@
 .banner-title-le{
     color:rgb(255, 255, 255)
 }
+
+/* make services responsive */
+@media only screen and (max-width:576px) {
+    .carousel-title{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:992px){
+    .carousel-title{
+        display:none;
+    }
+}
