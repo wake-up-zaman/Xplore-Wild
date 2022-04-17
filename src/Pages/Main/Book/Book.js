@@ -9,8 +9,7 @@ const Book = ({book}) => {
                 <h4>{name}</h4>
                 <p>{description}</p>
                 <button className='book-btn'>Read at OpenLibrary</button>
-            </div>
-            
+            </div>            
         </div>
     );
 };
