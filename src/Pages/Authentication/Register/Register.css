@@ -1,8 +1,9 @@
-.Login{
+.Register{
     background-color: rgb(220, 231, 231);
     border-radius: 20px;
-    height:420px;
+    height:520px;
 }
+
 .toggle-btn{
     height:50px;
 }

@@ -31,8 +31,8 @@ const Header = () => {
                         </Nav> */}
                             <Nav.Link className='navbarText text-dark fw-bold' href="home#services">Services</Nav.Link>
                             <Nav.Link className='navbarText text-dark fw-bold' href="home#books">Books</Nav.Link>
-                            <Nav.Link className='navbarText text-dark fw-bold' href="">Blogs</Nav.Link>
-                            <Nav.Link className='navbarText text-dark fw-bold' href="">About</Nav.Link>
+                            <Nav.Link className='navbarText text-dark fw-bold' as={Link} to="/blogs">Blogs</Nav.Link>
+                            <Nav.Link className='navbarText text-dark fw-bold' as={Link} to="/about">About</Nav.Link>
                             <Nav.Link className='navbarText text-dark fw-bold' as={Link} to="/login">Login</Nav.Link>
                     </Navbar.Collapse>
                 </Container>
