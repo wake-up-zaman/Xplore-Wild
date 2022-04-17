@@ -21,7 +21,7 @@ const Banner = () => {
                     />
                     <Carousel.Caption>
                         <h2>Kangaroo</h2>
-                        <h3>San Diego Zoo,Australia</h3>
+                        <h3>San Diego Island, Australia</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
