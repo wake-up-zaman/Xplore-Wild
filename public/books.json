@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "South Australia & Northern Territory",
+        "description": "The Amazon is one of Earth’s last refuges for jaguars, harpy eagles, and pink river dolphins, and it is home to sloths, black spider monkeys, and poison dart frogs.",
+        "img": "https://m.media-amazon.com/images/I/518ppRPmD7S._SL500_.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Complete National Park of Europe",
+        "description": "Flying birds nest on the milder shores of the Peninsula and the subantarctic islands. Eight species of penguins inhabit Antarctica and its offshore islands.",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/81QEV4He9RL.jpg"
+    },
+
+    {
+        "id": 3,
+        "name": "Yellowstone & Grand Teton",
+        "description": "Tigers, Leopards, Rhinoceros, Wild Buffaloes, Wild Hogs, Wild Cats, Barasinga, Spotted Deer, Hog Deer, Barking Deer, and Monkeys are the principal varieties of wild animals found in Sundarbans",
+        "img": "https://m.media-amazon.com/images/I/51K4BO9-BnL._SL500_.jpg"
+    },
+    {
+        "id": 4,
+        "name": "British Animals",
+        "description": "The deserts in Africa are home to some of the most extreme landscapes and stark conditions on earth, and offer an incredible backdrop for the variety of desert animals they are home to.",
+        "img": "https://cdn.shopify.com/s/files/1/2473/3068/products/x500_110a678a-e269-4060-b65e-0eef94a6b026.jpg?v=1589438542"
+    }
+]
