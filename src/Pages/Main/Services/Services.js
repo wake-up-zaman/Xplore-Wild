@@ -12,7 +12,7 @@ const Services = () => {
     }, [])
     return (
         <div id='services'>
-            <h2 className='text-center mt-5 '>What I Provide</h2>
+            <h2 className='text-center mt-5 service-title'>What I Provide</h2>
             <div className='d-flex align-items-center justify-content-center mb-4'>
                 <div style={{ height: '1.5px' }} className='bg-secondary w-25 text-center '></div>
                 <p className='mt-2 px-2'></p>

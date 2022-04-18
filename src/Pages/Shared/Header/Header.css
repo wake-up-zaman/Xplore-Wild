@@ -1,6 +1,7 @@
 .navbar{
     background-color: rgb(220, 231, 231);
     color: black;
+    height:70px;
 }
 .navbarText{
     color: black;
@@ -18,4 +19,7 @@
 .sign-in{
     font-weight: 700;
     color: black;
+}
+.toggle{
+    background-color: cadetblue;
 }

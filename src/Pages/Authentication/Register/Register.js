@@ -1,6 +1,6 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword} from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import SocialRegister from '../SocialRegister/SocialRegister';
 import './Register.css';
@@ -10,18 +10,21 @@ const Register = () => {
     const nameRef = useRef('')
     const emailRef = useRef('')
     const passwordRef = useRef('')
+    const [agree,setAgree]=useState(false)
     const [
         createUserWithEmailAndPassword,
         user,
         loading,
         error,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth,{sendEmailVerification:true});
 
     const handleRegister = event => {
         event.preventDefault();
+        const name=nameRef.current.value;
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
-        createUserWithEmailAndPassword(email, password);
+        if(agree){        
+        createUserWithEmailAndPassword(email, password);}
 
     }
     let location = useLocation();
@@ -49,12 +52,12 @@ const Register = () => {
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
                 <div className='mb-2'>
-                    <input className='mx-2' type='checkbox' name='terms' id='terms' />
-                    <label htmlFor='terms'>Accept Xplore Wild Terms & Conditions</label>
+                    <input onClick={()=>setAgree(!agree)} className='mx-2' type='checkbox' name='terms' id='terms' />
+                    <label className={agree ? 'text-primary':'text-danger'} htmlFor='terms'>Accept Xplore Wild Terms & Conditions</label>
                 </div>
 
                 <div className='d-flex justify-content-between'>
-                    <Button className='toggle-btn ' variant="light" type="submit">
+                    <Button disabled={!agree} className='toggle-btn ' variant="light" type="submit">
                         Submit
                     </Button>
                     <p className='mt-2'>Already have an account?</p>

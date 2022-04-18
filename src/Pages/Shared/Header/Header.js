@@ -20,7 +20,7 @@ const Header = () => {
                         <img className='rounded-circle ' height={'50px'} src={logo2} alt='' /> 
                     </Nav.Link>
                     <Nav.Link className='navbarText text-dark fw-bold title-main' href="home#banner">Xplore Wild</Nav.Link>
-                    <Navbar.Toggle className='bg-dark' aria-controls="responsive-navbar-nav" />
+                    <Navbar.Toggle className='toggle' aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto navbarText">                      
                         </Nav>
