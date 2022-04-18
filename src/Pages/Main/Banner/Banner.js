@@ -3,6 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import banner1 from '../../../Images/Banner/bannerf1.jpg'
 import banner2 from '../../../Images/Banner/bannerf2.jpg'
 import banner3 from '../../../Images/Banner/bannerf3.jpg'
+import bannersp from '../../../Images/Banner/bannersp.jpg';
 import './Banner.css'
 const Banner = () => {
     const [index, setIndex] = useState(0);
@@ -16,12 +17,12 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={banner1}
+                        src={bannersp}
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h2 className='carousel-title'>Kangaroo</h2>
-                        <h3 className='carousel-title'>San Diego Island, Australia</h3>
+                        <h2 className='carousel-title'>Hi I am Zaman</h2>
+                        <h3 className='carousel-title'>Explore the wild life with me !</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>

@@ -6,9 +6,14 @@ import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import './Login.css';
 import { useSendPasswordResetEmail } from 'react-firebase-hooks/auth';
+import Loading from '../Loading/Loading';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const Login = () => {
-    const emailRef=useRef('')
-    const passwordRef=useRef('')
+    const emailRef=useRef('');
+    const passwordRef=useRef('');
+    const navigate=useNavigate();
     const [
         signInWithEmailAndPassword,
         user,
@@ -34,22 +39,36 @@ const Login = () => {
  
      }
 
-    const navigate=useNavigate();
-    if(user){
-        navigate(from, { replace: true });
-    }
-
-
     const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
 
     const resetPassword= async()=>{
         const email=emailRef.current.value;
-        await sendPasswordResetEmail(email);
-        alert('Sent email');
+        if(email){
+            await sendPasswordResetEmail(email);
+            toast.info('Sent email',{
+                theme: "colored"
+              })
+        }
+        else{
+            toast.error("First Fill Up Email Address !", {
+                theme: "colored"
+              })
+        }
       }
+
+      if(loading || sending){
+        return <Loading></Loading>
+      }
+
+      if(user){
+        navigate(from, { replace: true });
+    }
+
     return (
         <div className='container  mx-auto mt-5 Login'>
+        <ToastContainer />
         <h2 className='text-dark text-center'>Please Login</h2>
+
         <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
@@ -70,7 +89,9 @@ const Login = () => {
             </Button>
             </div>
         </Form>
+
         <SocialLogin></SocialLogin>
+
         </div>
     );
 };

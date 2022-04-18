@@ -5,6 +5,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import SocialRegister from '../SocialRegister/SocialRegister';
 import './Register.css';
 import auth from '../../../firebase.init';
+import Loading from '../Loading/Loading';
 
 const Register = () => {
     const nameRef = useRef('')
@@ -29,8 +30,11 @@ const Register = () => {
     }
     let location = useLocation();
     let from = location.state?.from?.pathname || "/";
-
     const navigate = useNavigate();
+    if(loading){
+        return <Loading></Loading>
+      }
+
     if (user) {
         navigate(from, { replace: true });
     }

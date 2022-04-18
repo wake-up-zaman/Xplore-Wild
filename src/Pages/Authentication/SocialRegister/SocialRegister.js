@@ -4,6 +4,7 @@ import github from '../../../Images/Social/github.png';
 import auth from '../../../firebase.init';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import Loading from '../Loading/Loading';
 const SocialRegister = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
     const [signInWithGithub, user2, loading2, error2] = useSignInWithGithub(auth);
@@ -16,7 +17,9 @@ const SocialRegister = () => {
     let location = useLocation();
     let from = location.state?.from?.pathname || "/";
     const navigate=useNavigate();
-
+    if(loading || loading2){
+        return <Loading></Loading>
+      }
     if(user || user2){
         navigate(from, { replace: true });
     }
