@@ -19,10 +19,10 @@ const Header = () => {
                 <Nav.Link href='home#banner'>
                         <img className='rounded-circle ' height={'50px'} src={logo2} alt='' /> 
                     </Nav.Link>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Nav.Link className='navbarText text-dark fw-bold title-main' href="home#banner">Xplore Wild</Nav.Link>
+                    <Navbar.Toggle className='bg-dark' aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto navbarText">
-                            <Nav.Link className='navbarText text-dark fw-bold title-main' href="home#banner">Xplore Wild</Nav.Link>
+                    <Nav className="me-auto navbarText">                      
                         </Nav>
                             <Nav.Link className='navbarText text-dark fw-bold' href="home#services">Services</Nav.Link>
                             <Nav.Link className='navbarText text-dark fw-bold' href="home#books">Books</Nav.Link>
@@ -30,7 +30,7 @@ const Header = () => {
                             <Nav.Link className='navbarText text-dark fw-bold' as={Link} to="/blogs">Blogs</Nav.Link>
                             <Nav.Link className='navbarText text-dark fw-bold' as={Link} to="/about">About</Nav.Link>
                             {
-                                user ?<button className='btn btn-link sign-out text-dark text-decoration-none' onClick={handleSignOut}>Sign Out</button>:
+                                user ?<button type="button" className='btn btn-link sign-out text-dark text-decoration-none' onClick={handleSignOut}>Sign Out</button>:
                                 <Nav.Link className='sign-in' as={Link} to="/login">
                                 Login
                             </Nav.Link>}

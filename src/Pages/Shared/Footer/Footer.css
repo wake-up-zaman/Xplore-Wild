@@ -1,20 +1,19 @@
 .footer{
     font-family: 'Segoe UI';
-    font-weight: 400;
-    /* background-color: #ededed; */
-    background-color: rgb(220, 231, 231);
+    background-color: #26353b;
+    /* background-color: rgb(220, 231, 231); */
     padding:40px 0;
 }
 
 .footer .social{
     text-align:center;
     padding-bottom: 25px;
-    color:#3d4145;
+    color:#fdfeff;
 }
 .footer .social a{
     font-size: 24px;
-    color:#181a1b;
-    border: 1px solid rgb(18, 16, 16);
+    color:#ffffff;
+    border: 1px solid rgb(255, 254, 254);
     width:40px;
     height:40px;
     line-height:38px;
@@ -28,7 +27,7 @@
     margin-top:0;
     padding:0;
     list-style: none;
-    font-size: 18px;
+    font-size: 15px;
     line-height:1.6;
     margin-bottom:0;
     text-align: center;
@@ -36,7 +35,7 @@
 }
 
 .footer ul li a{
-    color:#0a0b0b;
+    color:#feffff;
     text-decoration: none;
 }
 .footer ul li{
@@ -48,5 +47,5 @@
 .copy-right{
     font-size: medium;
     font-weight: bold;
-    color:#2b2d30;
+    color:#ffffff;
 }
