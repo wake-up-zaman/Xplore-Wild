@@ -11,7 +11,7 @@ const Service = ({service}) => {
         <div className='service'>
             <img className='w-100 service-img' src={img} alt='' />
             <h2>{name}</h2>
-            <p>Price: ${price}</p>
+            <h4>Price: ${price}</h4>
             <p ><small>{description}</small></p>
             <button onClick={navigateToCheckOut} className='btn btn-info text-light'>More Photos</button>
         </div>

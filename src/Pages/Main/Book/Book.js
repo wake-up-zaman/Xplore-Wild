@@ -3,7 +3,7 @@ import './Book.css'
 const Book = ({book}) => {
     const {name,img,description}=book;
     return (
-        <div className='book d-flex border flex-column flex-md-row'>
+        <div className='book d-flex  flex-column flex-md-row '>
             <img className='book-img' src={img} alt=''></img>
             <div className='description'>
                 <h4>{name}</h4>

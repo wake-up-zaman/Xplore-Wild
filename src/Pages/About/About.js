@@ -3,7 +3,9 @@ import zaman from '../../Images/last 4.jpg';
 import './About.css'
 const About = () => {
     return (
-        <div className='d-flex flex-column flex-md-row  d-flex justify-content-center mt-5'>
+
+        <div>
+            <div className='d-flex flex-column flex-md-row  d-flex justify-content-center mt-5'>
             <div>
                 <img className='about-img' src={zaman} alt=''/>
                 <h4 className='mx-4'>Md Hadiuzzaman</h4>
@@ -14,6 +16,8 @@ const About = () => {
             </div>
 
         </div>
+        </div>
+
     );
 };
 

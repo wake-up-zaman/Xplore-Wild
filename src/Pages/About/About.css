@@ -4,7 +4,7 @@
     height:300px;
     width: 250px;
     text-align: center;
-    margin-right: 100px;
+    margin-right: 40px;
 }
 
 .goal{
@@ -13,4 +13,7 @@
     border: 1px solid gray;
     border-radius: 10%;
     padding: 25px;
+}
+.about-title{
+    margin-right: 150px;
 }

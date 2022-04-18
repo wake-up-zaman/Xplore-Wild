@@ -2,43 +2,43 @@
     {
         "id": 1,
         "name": "Amazon Birds",
-        "price": "300",
-        "description": "The Amazon is one of Earth’s last refuges for jaguars, harpy eagles, and pink river dolphins, and it is home to sloths, black spider monkeys, and poison dart frogs.",
+        "price": "1000",
+        "description": "Toucan,Harpy eagle,Hoatzin and many types of parrots contains this album.You can find the lifestyle and family system of Amazon,s birds by watching this photos",
         "img": "https://www.chimuadventures.com/blog/wp-content/uploads/2016/01/Amazon_Parrots_shutterstock_64558576.jpg"
     },
     {
         "id": 2,
         "name": "Southern Ocean",
-        "price": "100",
+        "price": "1200",
         "description": "Flying birds nest on the milder shores of the Peninsula and the subantarctic islands. Eight species of penguins inhabit Antarctica and its offshore islands.",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Kaiserpinguine_mit_Jungen.jpg/1280px-Kaiserpinguine_mit_Jungen.jpg"
     },
     {
         "id": 3,
         "name": "African Safari",
-        "price": "150",
-        "description": "The deserts in Africa are home to some of the most extreme landscapes and stark conditions on earth, and offer an incredible backdrop for the variety of desert animals they are home to.",
+        "price": "800",
+        "description": "This album about deserts animals in Africa.It is the home to some of the most extreme landscapes and stark conditions on earth, and offer an incredible backdrop for the variety of desert animals they are home to.",
         "img":"https://www.tripsavvy.com/thmb/3ilxxNboMP1iVBNe_VdTZPgSoYs=/2176x1224/smart/filters:no_upscale()/GettyImages-468020303-593ea6513df78c537b17ce38.jpg"
     },
     {
         "id": 4,
         "name": "Sundarbans",
-        "price": "200",
-        "description": "Tigers, Leopards, Rhinoceros, Wild Buffaloes, Wild Hogs, Wild Cats, Barasinga, Spotted Deer, Hog Deer, Barking Deer, and Monkeys are the principal varieties of wild animals found in Sundarbans",
+        "price": "600",
+        "description": "It provides photos of the Tigers, Leopards, Rhinoceros, Wild Buffaloes, Wild Hogs, Wild Cats, Barasinga, Spotted Deer, Hog Deer, Barking Deer, and Monkeys are the principal varieties of wild animals found in Sundarbans",
         "img": "http://www.sundarbantours.com/wp-content/uploads/2013/03/Royal-Bengal-Tiger.jpg"
     },
     {
         "id": 5,
         "name": "Balsam Lake Mountain",
-        "price": "100",
-        "description": "The Rocky Mountains are important habitat for a great deal of wildlife, such as elk, moose, mule deer, white-tailed deer,mountain goat",
+        "price": "650",
+        "description": " The Rocky Mountains are important habitat for a great deal of wildlife.You can find high quality photos of elk, moose, mule deer, white-tailed deer,mountain goat",
         "img": "https://www.playwinterpark.com/sites/default/files/styles/hero_image_new_small/public/Bull_Elk_RMNP.jpeg?itok=sDNkV2cd&timestamp=1480539922"
     },
     {
         "id": 6,
         "name": "Ironbark Forest",
-        "price": "300",
-        "description": "In this section of photos you can explore Elephant, Lion, Rhino, Buffalo and Leopard as well as the beautiful Cheetah in the reserve. Other animals include Spotted Hyena, Black Backed Jackal, Hippo, Eland and Giraffe.",
+        "price": "400",
+        "description": "In this album of photos you can explore Elephant, Lion, Rhino, Buffalo and Leopard as well as the beautiful Cheetah in the reserve. Other animals include Spotted Hyena, Black Backed Jackal, Hippo, Eland and Giraffe.",
         "img": "https://p1.pxfuel.com/preview/463/992/837/giraffes-south-africa-nature-animal-world-desert-wild.jpg"
     }
 ]

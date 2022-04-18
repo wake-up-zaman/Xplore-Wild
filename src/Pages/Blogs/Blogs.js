@@ -15,7 +15,7 @@ const Blogs = () => {
                             </h2>
                             <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    Multiple components can get data by using Context API without passing data manually through props.The Context API is working for this use cases: theming, user language, authentication etc. React.createContext() is the main things. It contains a provider and a consumer.Provider component has a prop and any child can get access while passing this prop.Child function can be called along with its value by consumer component.
+                                Authentication and authorization are commonly used words in security purpose.They are quite similar to hear but there has a big difference in meaning. Authentication is used to determine someone's identity, whereas authorization is a way to provide access to someone to access a individual resource.Authentication does not ensure what tasks under a process one person can do, what files he can view, read, or update. It mostly identifies who the person or system is actually.The authorization usually works with authentication so that the system could know who is accessing the information.
                                 </div>
                             </div>
                         </div>
@@ -27,7 +27,15 @@ const Blogs = () => {
                             </h2>
                             <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div className="accordion-body mb-5">
-                                    The Semantic tag presents meaningful pages of html.It provides various layout and sections of web pages which are better comprehensive. Search engine apps get helps to determine the significance of the page. Semantic tag has great advantages.The page which made by semantic tag are easier to read, has greater accessibility and user experience is much better.
+                                    Fairbase has authentication system via Email password and lots of social sites.Powerful apps can be build by using firebase.Firebase provides user authentication,hosting,storage solutions and cloud functions.Simplify testing and troubleshooting are special feature of firebase. There are so many alternatives of firebase to implement authentication.Some of this are mention here:<ul>
+                                        <li>Supabase</li>
+                                        <li>Okta</li>
+                                        <li>Stytch</li>
+                                        <li>Ory</li>
+                                        <li>PingIdentity</li>
+                                        <li>Keycloak</li>
+                                        <li>Frontegg</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -39,7 +47,14 @@ const Blogs = () => {
                             </h2>
                             <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div className="accordion-body mb-5">
-                                    The Semantic tag presents meaningful pages of html.It provides various layout and sections of web pages which are better comprehensive. Search engine apps get helps to determine the significance of the page. Semantic tag has great advantages.The page which made by semantic tag are easier to read, has greater accessibility and user experience is much better.
+                                    Firebase not only provide user authentication,it helps with vast area for developing application.Basically firebase is backend application software that provides development environment for building iOS,Android and Web apps.Firebase top functionalities are:
+                                    <ul>
+                                        <li>Database Management</li>
+                                        <li>Cloud Messaging</li>
+                                        <li>Remote Config</li>
+                                        <li>Hosting</li>
+                                        <li>Google Analytics</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
