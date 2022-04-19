@@ -12,3 +12,9 @@
 .service-img{
     height:230px;
 }
+
+@media only screen and (max-width:576px) {
+    .service{
+        background: #C6D8E4;
+    }
+}

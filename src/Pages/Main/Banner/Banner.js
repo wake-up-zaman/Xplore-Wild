@@ -28,13 +28,13 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={banner3}
+                        src={banner1}
                         alt="Second slide"
                     />
                     <Carousel.Caption>
-                        <h2 className='banner-title carousel-title'>Kingfisher</h2>
-                        <h3 className='banner-title carousel-title'>
-                            World's Largest Mangrove Forest, Sundarbans
+                        <h2 className='carousel-title'>Kangaroo</h2>
+                        <h3 className='carousel-title'>
+                        Northern Territory,Australia
                         </h3>
                     </Carousel.Caption>
                 </Carousel.Item>

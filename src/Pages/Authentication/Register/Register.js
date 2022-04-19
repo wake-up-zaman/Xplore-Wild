@@ -6,6 +6,7 @@ import SocialRegister from '../SocialRegister/SocialRegister';
 import './Register.css';
 import auth from '../../../firebase.init';
 import Loading from '../Loading/Loading';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Register = () => {
     const nameRef = useRef('')
@@ -40,7 +41,7 @@ const Register = () => {
     }
 
     return (
-        <div className='container mx-auto mt-5 Register '>
+        <div className='container mx-auto mt-5 Register shadow-lg p-3 mb-5 '>
             <h2 className='text-dark text-center'>Please Register</h2>
             <Form onSubmit={handleRegister}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -70,7 +71,7 @@ const Register = () => {
                 </div>
 
             </Form>
-            <SocialRegister></SocialRegister>
+            <SocialLogin></SocialLogin>
         </div>
     );
 };

@@ -9,23 +9,23 @@ import './Header.css'
 const Header = () => {
     const [user] = useAuthState(auth);
 
-    const handleSignOut=()=>{
+    const handleSignOut = () => {
         signOut(auth);
     }
     return (
-        <>
-            <Navbar className='navbar' sticky='top' collapseOnSelect expand="lg" variant="dark">
+       <>
+            <Navbar className='navbar header' sticky='top' collapseOnSelect expand="lg" variant="dark">
                 <Container className='navbarText'>
-                <Nav.Link href='home#banner'>
+                <Nav.Link href='home' as={Link} to="/home">
                         <img className='rounded-circle ' height={'50px'} src={logo2} alt='' /> 
                     </Nav.Link>
-                    <Nav.Link className='navbarText text-dark fw-bold title-main' href="home#banner">Xplore Wild</Nav.Link>
+                    <Nav.Link className='navbarText text-dark fw-bold ' href="home"  as={Link} to="/home">Xplore Wild</Nav.Link>
                     <Navbar.Toggle className='toggle' aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto navbarText">                      
                         </Nav>
-                            <Nav.Link className='navbarText text-dark fw-bold' href="home#services">Services</Nav.Link>
-                            <Nav.Link className='navbarText text-dark fw-bold' href="home#books">Books</Nav.Link>
+                            <Nav.Link className='navbarText text-dark fw-bold' as={Link} to="/home">Home</Nav.Link>
+                            {/* <Nav.Link className='navbarText text-dark fw-bold' href="home#books">Books</Nav.Link> */}
                             {/* <Nav.Link className='navbarText text-dark fw-bold' as={Link} to="/checkout">Checkout</Nav.Link> */}
                             <Nav.Link className='navbarText text-dark fw-bold' as={Link} to="/blogs">Blogs</Nav.Link>
                             <Nav.Link className='navbarText text-dark fw-bold' as={Link} to="/about">About</Nav.Link>

@@ -1,11 +1,11 @@
 import React from 'react';
-import { Navigate, useNavigate } from 'react-router-dom';
+import {useNavigate } from 'react-router-dom';
 import './Service.css'
 const Service = ({service}) => {
-    const {id,name,img,description,price}=service;
+    const {name,img,description,price,id}=service;
     const navigate=useNavigate();
     const navigateToCheckOut= id=>{
-        navigate(`/checkout`)
+        navigate(`/checkout/${id}`)
     }
     return (
         <div className='service'>
@@ -13,7 +13,7 @@ const Service = ({service}) => {
             <h2>{name}</h2>
             <h4>Price: ${price}</h4>
             <p ><small>{description}</small></p>
-            <button onClick={navigateToCheckOut} className='btn btn-info text-light'>More Photos</button>
+            <button onClick={()=>navigateToCheckOut(id)} className='btn btn-info text-light'>Buy Now</button>
         </div>
     );
 };

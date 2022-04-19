@@ -4,11 +4,11 @@ import './About.css'
 const About = () => {
     return (
 
-        <div>
-            <div className='d-flex flex-column flex-md-row  d-flex justify-content-center mt-5'>
+        <div className=''>
+            <div className='d-flex flex-md-row about-title mx-auto mt-5 d-flex  flex-column '>
             <div>
                 <img className='about-img' src={zaman} alt=''/>
-                <h4 className='mx-4'>Md Hadiuzzaman</h4>
+                <h4 className='mx-4 name'>Md Hadiuzzaman</h4>
             </div>
             <div className='goal'>
                 <h3>Life Goal</h3>

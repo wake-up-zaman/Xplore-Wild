@@ -1,0 +1,10 @@
+.checkout-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+
+.check-img{
+    height:300px;
+    width:400px
+}
